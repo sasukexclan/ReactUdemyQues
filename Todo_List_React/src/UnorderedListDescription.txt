@@ -1,0 +1,8 @@
+<ul>
+      {itemsInArr.map((todoList) => (
+         <li>{todoList}</li>
+      ))}
+ </ul>
+ 
+ The "todoList" is the each array item AKA list item e.g. Buy milk that is saved in "itemsInArr". We are just mapping over it and showing it on the browser using the HTML 
+ tag <li>
